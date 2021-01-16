@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Ruihan's homepage</title>
+      <link rel="shortcut icon" href="/favicon.ico">
+      <link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico">
+      <link rel="icon" type="image/png" sizes="196x196" href="/favicon-192.png">
+      <link rel="icon" type="image/png" sizes="160x160" href="/favicon-160.png">
+      <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+      <link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+      <link rel="apple-touch-icon" href="/favicon-57.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="/favicon-114.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="/favicon-72.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="/favicon-144.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="/favicon-60.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="/favicon-120.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="/favicon-76.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="/favicon-152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png">
+      <meta name="msapplication-TileColor" content="#FFFFFF">
+      <meta name="msapplication-TileImage" content="/favicon-144.png">
+ 
+  </head>
+  
+  <body style="background-color: rgba(255, 120, 120, .9);">
+      <header style = "background-color: brown">
+          <h1  style = "text-align: center;">Welcome to Ruihan's homepage!</h1>
+          <h2   style = "text-align: center;"> You are the best!</h2>
+      </header>
+      <main>
+      <h3> About me:</h3>
+      <nav>
+        <a href="https://github.com/Ruzhuang">My github profile</a></nav>
+      <section><h4>I like <b>dogs</b>,</h4> especially <i>snoopy</i>.    </section>
+        <figure style="text-align: center;">
+            <img src="snoopy.jpg" style="width:90vw; max-width: 800px;" >
+            <figcaption style="background-color: rgba(105, 89, 89, 0.829); width: 90vw;">Snoopy waving his tail</figcaption>
+        </figure>
+        <picture>
+            <source srcset="/favicon-192.png" style="display: block;margin-left: auto;
+            margin-right: auto;
+            width: 20%;"/>
+            <img src="favicon-192.png" style="display: block;margin-left: auto;
+            margin-right: auto;
+            width: 20%;" alt="snoopy the cartoon character"/>
+        </picture>
+            <div style="height: 2em; background: rgba(105, 89, 89, 0.829); display: flex;
+            align-items: center;
+            justify-content: center">
+                <p style="text-align:center">The famous snoopy</p>
+            </div>
+        <p>My favorite programming language at the time is <strong>C++</strong>, so here's HELLO WORLD in C++:</p>
+        <span style="background-color: rgba(247, 243, 243, 0.829); color:grey">
+            <code>#include &lt;iostream &gt; <br />
+                int main() { <br />
+                    &nbsp;&nbsp;std::cout &lt;&lt; "Hello World!";<br />
+                    &nbsp;&nbsp;return 0;<br />
+            }<br />
+            </code>
+        </span>
+        <h3>About Pokemons:</h3>
+        <div style="background-color: skyblue;"><em>Starter</em> Pokemons:
+        <ul>
+            <li>Squitle</li>
+            <li>Bulbasuar</li>
+            <li>Charmander</li>
+        </ul></div>
+      </main>
+      <table style="background-color: slateblue; border: 1px solid black;">
+        <caption style="caption-side: bottom; font-size: small;">Choose the pokemon with your favorite type</caption>
+        <colgroup>
+            <col span="1" >
+            <col span="1" style="background-color: teal;">
+        </colgroup>
+        <thead>
+            <tr>
+                <th colspan="2" style="border: 1px solid black;">Starter pokemons with their types</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="border: 1px solid black;">Charmander</td>
+                <td style="border: 1px solid black;">Fire</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black;">Bulbasuar</td>
+                <td style="border: 1px solid black;">Grass</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black;">Squitle</td>
+                <td style="border: 1px solid black;">Water</td>
+            </tr>
+        </tbody>
+    </table>
+    <br/>
+      <label>Choose your starter Pokemon:</label>
+      <select>
+    <optgroup label="Starter Pokemons">
+        <option>Squitle</option>
+        <option>Bulbasuar</option>
+        <option>Charmander</option>
+    </optgroup>
+    <optgroup label="hidden Starter Pokemon">
+        <option>Pikachu</option>
+    </optgroup>
+      </select>
+      <details>
+        <summary>My choice of starter pokemon</summary>
+        Charmander
+    </details>
+    <form>
+<label>Choose a Pokenom to send to the base:</label>
+<input list="pokemon-for-base" id="pokemon-choice" name="pokemon-choice" />
+<datalist id="pokemon-for-base">
+    <option value="Charmander">
+        <option value="Pikachu"> 
+</datalist>
+
+        <fieldset>
+          <legend>Choose your favorite Pokemon type</legend>
+          <input type="radio">
+          <label> Fire </label><br/>
+          <input type="radio">
+          <label> Water </label><br/>
+          <input type="radio">
+          <label> Grass </label><br/>
+          <input type="submit">
+          <input type="reset">
+        </fieldset>
+        
+</form>
+
+      <aside style = "background-color: rgba(155, 117, 117, 0.356)">
+        <p>Task list for this page:</p>
+        <ol>
+          <li>Complete information about me as a programmer</li>
+          <li>Make it look prettier</li>
+        </ol>
+        <h3>Another page of mine, a trivial one:</h3>
+        <iframe id="trivial-page"
+    title="Another page of mine"
+    width="900"
+    height="300"
+    src="https://ruzhuang.github.io/trivial.html">
+</iframe>
+<h3>I drew something on the canvas:</h3>
+<canvas style="background-color: skyblue;" id="the_canvas" width="400" height="300"> </canvas>
+<h3>I drew a circle using svg</h3>
+<svg width="100" height="100" style="background-color: skyblue;">
+    <circle cx="50" cy="50" r="40" fill="yellow" />
+</svg>
+<script>
+    var c = document.getElementById("the_canvas");
+    var ctx = c.getContext("2d");
+    ctx.moveTo(0, 0);
+    ctx.lineTo(400, 200);
+    ctx.stroke();
+    </script>
+    <p>please ignore this random video:</p>
+    <video controls width="250">
+        <source src="sample-mp4-file.mp4"
+                type="video/mp4">
+    
+        Sorry, your browser doesn't support embedded videos.
+    </video>
+    <figure>
+        <figcaption>Please ignore this random audio:</figcaption>
+        <audio
+            controls
+            src="file_example_MP3_700KB-(1).mp3">
+                Your browser does not support the
+                <code>audio</code> element.
+        </audio>
+    </figure>
+    <form method="get">
+        <div>
+          <label>Enter your name: </label>
+          <input type="text" name="name"><br/>
+          <label>Enter your email: </label>
+          <input type="email" name="email"><br/>
+          <label>Enter the date you submitted this response: </label>
+          <input type="date" name="date"><br/>
+          <label>Rate how much you like this page: </label>
+          <input type="range" name="range"><br/>
+          <label>Enter the your phone number: </label>
+          <input type="tel" name="tel"><br/>
+          <label>Enter the your favorite color: </label>
+          <input type="color" name="color"><br/>
+          <label>Enter the your personal page: </label>
+          <input type="url" name="url"><br/>
+          <label>Let me know what do you think of this page:</label> <br/>
+          <textarea id="story" name="story" rows="5" cols="33">
+</textarea>
+        </div>
+        
+    </form>
+    <button 
+        type="button"> Thumbs up!
+</button>
+<p id="to-be-filled"></p>
+<template id="filling-p">
+    Thanks for visiting my page!
+</template>
+<script>
+    var template=document.querySelector('#filling-p');
+    var p=document.querySelector('#to-be-filled');
+    var clone = template.content.cloneNode(true);
+    p.appendChild(clone);
+</script>
+      </aside>
+      <hr>
+      <footer style="color: cadetblue;">Last Updated: 1/14/2021</footer>
+  </body>
+</html>
