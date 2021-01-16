@@ -1,0 +1,18 @@
+Link to my Github Repository from part 1:
+https://github.com/Ruzhuang/cse110_lab2
+Link to my published Github User Page from part 1:
+https://ruzhuang.github.io/cse110_lab2/
+Passphrases from part 2 scavenger hunt:
+question 1: greenEggsAndHam
+question 2: iHateCplusplus
+question 3: HTMLRocks
+question 4: JavaScriptRules
+question 5: SvelteBeatsReact
+question 6: ThisIsJS
+question 7: YouFoundMe
+question 8: coolcoolcool
+question 9: 2020sucked
+question 10: listenToTheBlackKeys
+question 11: a11yComesFirst
+question 12: iLoveWebDev
+question 13: text/html
