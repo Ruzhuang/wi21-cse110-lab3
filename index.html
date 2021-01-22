@@ -3,6 +3,8 @@
   <head>
       <meta charset="UTF-8">
       <title>Ruihan's homepage</title>
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">  
       <link rel="shortcut icon" href="/favicon.ico">
       <link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico">
       <link rel="icon" type="image/png" sizes="196x196" href="/favicon-192.png">
@@ -29,7 +31,7 @@
   <body class="pink-body">
       <header id="brown-background-header">
           <h1  style = "text-align: center;">Welcome to Ruihan's homepage!</h1>
-          <h2   style = "text-align: center;"> You are the best!</h2>
+          <h2> You are the best!</h2>
       </header>
       <main>
       <h3 class="first-h3"> About me:</h3>
@@ -63,7 +65,7 @@
             </code>
         </span>
         <h3>About Pokemons:</h3>
-        <div style="background-color: skyblue;"><em>Starter</em> Pokemons:
+        <div id="div-box2" style="background-color: skyblue;"><em>Starter</em> Pokemons:
         <ul>
             <li>Squitle</li>
             <li>Bulbasuar</li>
@@ -177,7 +179,7 @@
         </audio>
     </figure>
     <form method="get">
-        <div>
+        <div id="div-box1">
           <label>Enter your name: </label>
           <input type="text" name="name"><br/>
           <label>Enter your email: </label>
@@ -205,6 +207,9 @@
 <template id="filling-p">
     Thanks for visiting my page!
 </template>
+<p id="do-not-display">
+    Thanks for visiting my page!
+</p>
 <script>
     var template=document.querySelector('#filling-p');
     var p=document.querySelector('#to-be-filled');

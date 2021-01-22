@@ -22,6 +22,7 @@ a[href="https://github.com/Ruzhuang"]{
 a:hover {
     color: #FF00FF;
 }
+/* click link */
 a:active {
     color: hsla(0,8%,38%,0.9);
 }
@@ -39,7 +40,49 @@ h1 + h2{
 }
 h1 ~ h2{
     color: black;
+    border-style: dashed;
+    border-width: 1vmax;
+    border-radius: 1vw;
+    border-color: hsl(0,8%,38%);
+    font-size: 6mm;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Potta One', cursive;
+
+
 }
 h3.first-h3{
     color: black;
+    border-style: dashed;
+    border-color: royalblue;
+    border-width: 0.1rem;
+    border-radius: 100pt;
+    font-size: 20px;
+}
+#div-box1 {
+    background-color: lightgrey;
+    width: 600px;
+    border: 15px solid green;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+
+#div-box2 {
+    width: auto;
+    height: 100px;
+    border: 3px solid skyblue;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 20px 5px;
+    display: block;
+  }
+
+#do-not-display {
+    display:none;
 }
