@@ -1,0 +1,45 @@
+*{
+    border-color: #FFF,;
+}
+h2, h3{
+    color: black;
+}
+p {
+    color:rgb(0, 0, 0);
+}
+#brown-background-header{
+    background-color: hsl(0,8%,38%);
+}
+.pink-body{
+    background-color: rgba(255, 120, 120, .9);
+    background-color: rgb(248, 245, 245);
+}
+a[href="https://github.com/Ruzhuang"]{
+    background-color:#FFFFFF;
+    color: brown;
+}
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+}
+a:active {
+    color: hsla(0,8%,38%,0.9);
+}
+p::first-letter{
+    color: black;
+}
+body p{
+    color: black;
+}
+body>p{
+    color: black;
+}
+h1 + h2{
+    color: black;
+}
+h1 ~ h2{
+    color: black;
+}
+h3.first-h3{
+    color: black;
+}
