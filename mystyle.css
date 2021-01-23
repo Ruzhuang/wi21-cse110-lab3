@@ -118,7 +118,7 @@ h3.first-h3{
 .grid-container > div{
     background-color: skyblue;
 }
-
+/* the second item in the grid*/
 #second{
     grid-column-end: span 2;
     background-color: slategrey;
